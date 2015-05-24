@@ -113,3 +113,17 @@ In our dataset, these measurements will either have mean() or std() at the end, 
  fBodyBodyGyroJerkMag-mean()     
  fBodyBodyGyroJerkMag-std()     
  fBodyBodyGyroJerkMag-meanFreq()
+
+The subjects are identified by their number (1 through 30)
+
+The activities are the following:
+Laying
+Sitting
+Standing
+Walking
+Walking Downstairs
+Walking Upstairs
+
+The tidy data set has 180 rows, as each combination of subject and activity is its own observation (example, 6 Walking)
+It has 80 columns, one for subject_activity and 79 for the variables
+the values represent the mean for each variable given the subject and activity
